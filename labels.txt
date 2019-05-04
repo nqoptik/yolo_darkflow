@@ -1,1 +1,2 @@
-hourglass
+giant_location
+qr_tag
