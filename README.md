@@ -102,7 +102,7 @@ qr_tag
 ### Step 5.
 Reference the `tiny-yolo-voc-2c.cfg` model when you train.
 ```
-python3 flow --model cfg/tiny-yolo-voc-2c.cfg --load bin/tiny-yolo-voc.weights --train --annotation giant_annotations --dataset giant_images --gpu 0.8 --epoch 500
+python3 flow --model cfg/tiny-yolo-voc-2c.cfg --load bin/tiny-yolo-voc.weights --train --annotation giant_annotations --dataset giant_images --gpu 0.8 --epoch 500 --save 8000
 ```
 
 ## Test the results
