@@ -42,9 +42,12 @@
 *.user
 *.opendb
 *.csv
+*.xml
 build/*
 */build/*
 doc/*
 */doc/*
 bin/*
 */bin/*
+ckpt/*
+*/ckpt/*
